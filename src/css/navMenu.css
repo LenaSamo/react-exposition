@@ -1,6 +1,6 @@
 /*НЧ Шапка меню*/
 h1{
-    /* font-family: 'PlayfairDisplaySC-Black', "aria";  */
+    font-family: 'PlayfairDisplaySC-Black', "aria"; 
     padding: 2px;
     color: var(--h1-color);
 }
@@ -21,9 +21,10 @@ ul {
 .ulMenu li a{
     text-decoration: none;
     color: var(--ul-color);
-    padding: 20px;
+    padding: 10px;
 }
 .ulMenu li a:hover{
-    border-bottom: solid 2px var(--ul-color);
+    color: var(--h1-color);
+    border-bottom: solid 2px var(--h1-color);
 }
 /*КН Шапка меню*/

@@ -1,5 +1,4 @@
 import React from 'react';
-import Img from './img';
 import mainPicture from "../img/mainPicture.jpg"
 
 class MainPhoto extends React.Component{
@@ -7,9 +6,11 @@ class MainPhoto extends React.Component{
     render()
     {
         return(
-            <div class="mainPhoto" style={{backgroundImage: `url(${mainPicture})`,
-                                            backgroundRepeat: "no-repeat"
-                                        }}>
+            <div style={{ backgroundImage: `url(${mainPicture})`,
+                        backgroundRepeat: 'no-repeat',
+                        width: '1349px',
+                        height: "500px",
+                        backgroundPosition: 'center' }}>
                 <input id="buttonMainPhoto" type="button" value="Сделать заказ"></input>
             </div>
         )

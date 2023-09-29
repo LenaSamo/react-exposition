@@ -1,8 +1,29 @@
 .block{
-    margin: 30px;
+    color: var(--ul-color);
+    margin: 60px 20px 20px 250px;
     padding: 10px;
-    
+    width: 600px;
+
 }
 .h2Block{
-
+    font-family: 'PlayfairDisplaySC-Black'; 
+    margin: 10px;
+    font-size: 30px;
+    color: var(--h1-color);
+}
+.block img{
+    height: 500px;
+    width: auto;
+    
+}
+.pTextBlock{
+    position: absolute;
+    top: 140%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+#paintings{
+    width: 850px;
+    height: 600px;
 }

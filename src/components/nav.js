@@ -9,7 +9,7 @@ class Nav extends React.Component{
     render()
     {
         return(
-            <ul class="ulMenu">
+            <ul className="ulMenu">
             <li>
                 <a href="#aboutMe">{this.aboutMe}</a>
             </li>

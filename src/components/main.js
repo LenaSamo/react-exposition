@@ -2,16 +2,21 @@ import React from 'react';
 import Nav from './nav';
 import AboutMe from './aboutMe';
 import MainPhoto from './mainPhoto';
+import Paintings from './paintings';
+import Exhibitions from './exhibitions';
+
 
 class Main extends React.Component{
    
     render()
     {
         return(
-            <div className='blocks'>
+           <div>
                 <Nav />
                 <MainPhoto />
                 <AboutMe />
+                <Paintings />
+                <Exhibitions />
             </div>
         )
     }

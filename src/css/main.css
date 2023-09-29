@@ -1,37 +1,51 @@
 /*цвета*/
 :root {
-    --main-bg-color: rgb(128, 140, 148);
+    --main-bg-color: rgb(20, 21, 22);
     --ul-color: #ffffff;
-    --h1-color: rgb(38, 27, 48);
+    --h1-color: rgb(233, 217, 148);
 }
 /*шрифты*/
-/* @font-face {
+@font-face {
 	font-family: 'PlayfairDisplaySC-Black'; 
-	src: url(/fonts/PlayfairDisplaySC-Black/PlayfairDisplaySC-Black.ttf); 
+	src: url(../fonts/PlayfairDisplaySC-Black/PlayfairDisplaySC-Black.ttf); 
 }
 @font-face {
 	font-family: 'Merriweather'; 
-	src: url(/fonts/Merriweather/Merriweather-Black.ttf); 
+	src: url(../fonts/Merriweather/Merriweather-Black.ttf); 
 }
 @font-face {
 	font-family: 'Lora'; 
-	src: url(/fonts/Lora/Lora-VariableFont_wght.ttf); 
-} */
+	src: url(../fonts/Lora/Lora-VariableFont_wght.ttf); 
+}
 *{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     background-color: var(--main-bg-color);
-    /* font-family: 'Lora', "aria";  */
+    font-family: 'Lora', "aria"; 
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 
 
 /*НЧ Главное изображение и кнопка*/
 .mainPhoto{
-    text-align: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    
+}
+.mainPhoto img {
+   
+    width: 1349px;
+    height: 100%;
 }
 #buttonMainPhoto{
     border: solid 2px var(--ul-color);
@@ -40,6 +54,12 @@ body{
     padding: 20px 30px;
     color: var(--ul-color);
     font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
 }
 #buttonMainPhoto:hover{
     border: solid 2px var(--h1-color);
