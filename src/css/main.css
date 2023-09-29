@@ -1,0 +1,48 @@
+/*цвета*/
+:root {
+    --main-bg-color: rgb(128, 140, 148);
+    --ul-color: #ffffff;
+    --h1-color: rgb(38, 27, 48);
+}
+/*шрифты*/
+/* @font-face {
+	font-family: 'PlayfairDisplaySC-Black'; 
+	src: url(/fonts/PlayfairDisplaySC-Black/PlayfairDisplaySC-Black.ttf); 
+}
+@font-face {
+	font-family: 'Merriweather'; 
+	src: url(/fonts/Merriweather/Merriweather-Black.ttf); 
+}
+@font-face {
+	font-family: 'Lora'; 
+	src: url(/fonts/Lora/Lora-VariableFont_wght.ttf); 
+} */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--main-bg-color);
+    /* font-family: 'Lora', "aria";  */
+}
+
+
+
+/*НЧ Главное изображение и кнопка*/
+.mainPhoto{
+    text-align: center;
+}
+#buttonMainPhoto{
+    border: solid 2px var(--ul-color);
+    background-color: transparent;
+    margin: 5px;
+    padding: 20px 30px;
+    color: var(--ul-color);
+    font-size: 20px;
+}
+#buttonMainPhoto:hover{
+    border: solid 2px var(--h1-color);
+    color: var(--h1-color);
+}
+/*КН Главное изображение и кнопка*/

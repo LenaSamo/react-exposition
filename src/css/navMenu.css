@@ -1,0 +1,29 @@
+/*НЧ Шапка меню*/
+h1{
+    /* font-family: 'PlayfairDisplaySC-Black', "aria";  */
+    padding: 2px;
+    color: var(--h1-color);
+}
+ul {
+    list-style: none; 
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+.ulMenu > li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+.ulMenu > li:last-child {
+    margin-right: 0;
+}
+.ulMenu li a{
+    text-decoration: none;
+    color: var(--ul-color);
+    padding: 20px;
+}
+.ulMenu li a:hover{
+    border-bottom: solid 2px var(--ul-color);
+}
+/*КН Шапка меню*/
