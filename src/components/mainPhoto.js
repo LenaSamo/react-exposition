@@ -11,7 +11,7 @@ class MainPhoto extends React.Component{
                         width: '1349px',
                         height: "500px",
                         backgroundPosition: 'center' }}>
-                <input id="buttonMainPhoto" type="button" value="Сделать заказ"></input>
+                <a id="buttonMainPhoto" href="#orderForm">Сделать заказ</a>
             </div>
         )
     }

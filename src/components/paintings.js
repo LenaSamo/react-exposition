@@ -20,7 +20,7 @@ const Paintings = () =>{
     ]
     const containerStyles = {
         width: "500px",
-        height: "280px",
+        height: "auto",
         margin: "0 auto"
     }
     return(
@@ -29,7 +29,7 @@ const Paintings = () =>{
             <div style={containerStyles}>
                 <ImageSlaider slides={slides}/>
             </div>
-            
+            <input id="buttonPaintings" type="button" value="Подробнее"></input>
         </div>
     )
 }

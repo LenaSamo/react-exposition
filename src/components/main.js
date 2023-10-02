@@ -4,6 +4,9 @@ import AboutMe from './aboutMe';
 import MainPhoto from './mainPhoto';
 import Paintings from './paintings';
 import Exhibitions from './exhibitions';
+import OrderForm from './orderForm';
+import Contact from './contact';
+import Footer from './footer';
 
 
 class Main extends React.Component{
@@ -17,6 +20,9 @@ class Main extends React.Component{
                 <AboutMe />
                 <Paintings />
                 <Exhibitions />
+                <OrderForm />
+                <Contact />
+                <Footer />
             </div>
         )
     }
