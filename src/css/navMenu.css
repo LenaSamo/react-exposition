@@ -1,19 +1,21 @@
 /*НЧ Шапка меню*/
 .nav{
     display: inline-flex;
-    margin: 20px;
     justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    background-color: var(--main-bg-color);
 }
 h1{
     font-family: 'PlayfairDisplaySC-Black', "aria"; 
-    margin: 10px;
+    padding-left: 20px;
     color: var(--h1-color);
     font-size: 35px;
 }
 ul {
     text-align: right;
     list-style: none; 
-    margin: 20px;
+    margin: 10px;
     font-size: 20px;
 }
 .ulMenu > li {

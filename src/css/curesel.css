@@ -49,3 +49,9 @@
 .dotStyles:hover, .dotStyles:focus, .dotStyles:active{
     color:  var(--h1-color);
 }
+@media (max-width: 768px) {
+    .slideStyles{
+        width: 300px;
+        height: 300px;
+    }
+}

@@ -1,10 +1,7 @@
 import React from 'react';
-import ImageSlaider from './imageSlaider'
-import { BrowserRouter as Router,
-        Route, Link} from "react-router-dom";
-import Gallery from './gallery'
-const Paintings = () =>{
-    const h2Paintings = "Картины"
+
+const Gallery = () =>{
+    const h2Paintings = "Галерея"
     
     const slides=[
         {
@@ -23,17 +20,10 @@ const Paintings = () =>{
     return(
         <div className='block' id="paintings">
             <h2 className='h2Block'>{h2Paintings}</h2>
-            <div className='containerStyles'>
-                <ImageSlaider slides={slides}/>
-            </div>
-            <form>
-                <input id="buttonPaintings" type="button" value="Подробнее" />
-            </form>
-            
             
         </div>
         
     )
 }
 
-export default Paintings
+export default Gallery

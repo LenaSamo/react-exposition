@@ -5,7 +5,7 @@ class Img extends React.Component{
     render()
     {
         return(
-            <img src={this.props.image} />
+            <img src={this.props.image} alt="фото"/>
         )
     }
 }
